@@ -1,0 +1,5 @@
+This is a sample demonstration on how to use MvcTurbine.MembershipProvider.  It's the default MVC3 app with MVC Turbine and MvcTurbine.MembershipProvider.  
+
+You should be able to run it as-is, just press F5 and run it.  You can log in using the Log In link to try logging in using either alan/stevens or darren/[any password] to demo.
+
+If you want to create your own login, just create a new instance of either PrincipalProvider (look at SimpleExample for a demo) or create an instance of IPrincipalProvider (look at ComplexExample for a demo).
