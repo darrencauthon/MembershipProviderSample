@@ -3,7 +3,7 @@ using MvcTurbine.MembershipProvider;
 
 namespace MembershipProviderSample
 {
-    public class LoginAsAlanStevens : PrincipalProvider
+    public class SimpleExample : PrincipalProvider
     {
         public override PrincipalProviderResult GetPrincipal(string userId, string password)
         {
