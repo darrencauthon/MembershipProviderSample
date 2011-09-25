@@ -1,5 +1,5 @@
 ﻿using MvcTurbine.ComponentModel;
-using MvcTurbine.Unity;
+using MvcTurbine.StructureMap;
 using MvcTurbine.Web;
 
 namespace MembershipProviderSample
@@ -8,7 +8,7 @@ namespace MembershipProviderSample
     {
         static MvcApplication()
         {
-            ServiceLocatorManager.SetLocatorProvider(() => new UnityServiceLocator());
+            ServiceLocatorManager.SetLocatorProvider(() => new StructureMapServiceLocator());
         }
     }
 }
